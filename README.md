@@ -1,5 +1,5 @@
 # tOoLs
-sMaLl sCrIpT To iMpRoVe tHe fOrM Of yOuR TeXt
+sMaLl sCrIpT To iMpRoVe tHe fOrM Of yOuR TeXt.
 
 ## How to use
 
