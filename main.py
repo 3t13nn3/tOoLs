@@ -27,7 +27,7 @@ def data_recovery():
 def tRaNsFoRm(og_text):
 	text = list("".join(og_text))
 	for i in range(len(text)):
-		if i%2 == 1:
+		if i & 0x01:
 			text[i] = text[i].upper()
 		else:
 			text[i] = text[i].lower()
