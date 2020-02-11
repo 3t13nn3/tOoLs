@@ -1,6 +1,7 @@
 #TO ADD: Copy to clipboard thing avoiding pyperclip
 
 import sys
+import random
 
 def data_recovery():
 	text = []
@@ -27,7 +28,7 @@ def data_recovery():
 def tRaNsFoRm(og_text):
 	text = list("".join(og_text))
 	for i in range(len(text)):
-		if i & 0x01:
+		if random.randint(0, 1):
 			text[i] = text[i].upper()
 		else:
 			text[i] = text[i].lower()
